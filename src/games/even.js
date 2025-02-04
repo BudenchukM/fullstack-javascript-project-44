@@ -1,5 +1,5 @@
 import { randomNumber } from '../utils.js';
-import runEngine from '../index-even.js';
+import runEngine from '../index.js';
 
 const description = 'Answer "yes" if the number is even, otherwise answer "no"';
 
