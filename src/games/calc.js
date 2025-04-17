@@ -1,4 +1,4 @@
-import { randomNumber } from '../utils.js';
+import randomNumber from '../utils.js';
 import runEngine from '../index.js';
 
 const description = 'What is the result of the expression?';
