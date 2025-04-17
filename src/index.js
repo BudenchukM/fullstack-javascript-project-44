@@ -9,7 +9,7 @@ const runEngine = (description, generateRound) => {
   console.log(description);
   for (let i = 1; i <= gameСounter; i += 1) {
     const { answer, question } = generateRound();
-    console.log(question);
+    console.log(`Question: ${question}`);
     const userAnswer = readlineSync.question('Your answer: ');
     if (answer === userAnswer) {
       console.log('Correct!');
