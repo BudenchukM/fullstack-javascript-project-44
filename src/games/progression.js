@@ -16,7 +16,7 @@ export const generateRound = () => {
   const hiddenNumberIndex = randomNumber(0, progressionLength - 1);
   const answer = String(progression[hiddenNumberIndex]);
   progression[hiddenNumberIndex] = '..';
-  const question = progression.join('  ');
+  const question = progression.join(' ');
   return { answer, question };
 };
 export default () => runEngine(description, generateRound);
