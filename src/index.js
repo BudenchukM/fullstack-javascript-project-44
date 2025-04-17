@@ -4,8 +4,8 @@ const gameСounter = 3;
 
 const runEngine = (description, generateRound) => {
   console.log('Welcome to the Brain Games!');
-  const name = readlineSync.question('May I have your name? : ');
-  console.log(`Hello ${name}!`);
+  const name = readlineSync.question('May I have your name? ');
+  console.log(`Hello, ${name}!`);
   console.log(description);
   for (let i = 1; i <= gameСounter; i += 1) {
     const { answer, question } = generateRound();
